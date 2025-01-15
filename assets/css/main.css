@@ -1,32 +1,6 @@
-body[a=dark] {
-  filter: invert(1);
-}
-body[a=dark] img {
-  filter: invert(1);
-}
-body[a=dark] img.ioda {
-  filter: invert(0);
-}
-body[a=dark] .emoji {
-  filter: invert(1);
-}
-
-@media (prefers-color-scheme: dark) {
-  body[a=auto] {
-    filter: invert(1);
-  }
-  body[a=auto] img {
-    filter: invert(1);
-  }
-  body[a=auto] img.ioda {
-    filter: invert(0);
-  }
-  body[a=auto] .emoji {
-    filter: invert(1);
-  }
-}
-html, body {
-  background: white;
+html,
+body {
+  background: #3F3F3F;
 }
 
 html {
@@ -35,7 +9,7 @@ html {
 }
 
 body {
-  color: black;
+  color: #DCDCCC;
   font-family: monospace;
   font-size: 16px;
   line-height: 1.4;
@@ -48,7 +22,11 @@ body {
   text-align: right;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 3rem;
 }
 
@@ -78,9 +56,11 @@ hr {
   text-align: center;
   border: 0;
 }
+
 hr:before {
   content: "/////";
 }
+
 hr:after {
   content: attr(data-content) "/////";
 }
@@ -89,15 +69,17 @@ table {
   width: 100%;
 }
 
-table, th, td {
-  border: thin solid black;
+table,
+th,
+td {
+  border: thin solid #262626;
   border-collapse: collapse;
   padding: 0.4rem;
 }
 
 code {
-  color: white;
-  background: black;
+  color: #F0DFAF;
+  background: #2F2F2F;
 }
 
 div.highlighter-rouge code {
@@ -109,9 +91,10 @@ div.highlighter-rouge code {
 
 blockquote {
   font-style: italic;
-  border: thin solid black;
+  border: thin solid #262626;
   padding: 1rem;
 }
+
 blockquote p {
   margin: 0;
 }
