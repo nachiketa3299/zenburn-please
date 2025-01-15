@@ -17,4 +17,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.8.0"
 
   spec.required_ruby_version = '>= 3.4'
+  s.add_runtime_dependency "rouge", "~> 4.0"              # 코드 하이라이터
+  s.add_runtime_dependency "kramdown", "~> 2.4"           # 마크다운 파서
 end
