@@ -18,8 +18,26 @@ body {
   overflow-wrap: break-word;
 }
 
+a:link {
+  color: #F0DFAF
+}
+
+a:visited {
+  color: #E0CF9F
+}
+
 .post-meta {
   text-align: right;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #F0DFAF;
+  font-weight: bold;
 }
 
 h2,
