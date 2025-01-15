@@ -10,7 +10,7 @@ html {
 
 body {
   color: #DCDCCC;
-  font-family: monospace;
+  font-family: "굴림";
   font-size: 16px;
   line-height: 1.4;
   margin: 0;
@@ -96,6 +96,7 @@ td {
 }
 
 code {
+  font-family: monospace;
   color: #F0DFAF;
   background: #2F2F2F;
 }
