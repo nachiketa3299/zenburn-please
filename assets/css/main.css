@@ -120,7 +120,8 @@ pre {
   overflow: auto;
   background: none;
   /* 테마 배경 사용 */
-  color: inherit
+  color: inherit;
+  tab-size: 2;
 }
 
 /* 개행 코드 블록의 내부 코드 */
