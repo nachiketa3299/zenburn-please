@@ -18,5 +18,5 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 3.4'
   spec.add_runtime_dependency "rouge", "~> 3.26"              # 코드 하이라이터
-  spec.add_runtime_dependency "kramdown", "~> 1.3.1"           # 마크다운 파서
+  spec.add_runtime_dependency "kramdown", ">= 1.17", "< 3"           # 마크다운 파서
 end
