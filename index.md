@@ -34,6 +34,7 @@ public class LocomotiveAction
 	private void Awake()
 	{
 		Debug.Log("Awaked!");
+		Debug.Log("Testing verrrrrry loooooooooooong Cooooooooooooooooooode");
 	}
 }
 ```
