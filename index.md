@@ -28,6 +28,8 @@ int main() {
 }
 ```
 
+워드 랩 테스트
+
 ```csharp
 public class LocomotiveAction
 {
@@ -39,6 +41,11 @@ public class LocomotiveAction
 }
 ```
 
+하이라이트 테스트
+{% highlight python %}
+print("Python is good");
+{% endhighlight %}
+
 그리고 수식은 $$x + y + z = 10$$ 처럼 표시됨
 
 $$
@@ -46,6 +53,15 @@ s + y
 $$
 
 위는 블록 수식임
+
+<details>
+<summary>폴더블 메뉴</summary>
+
+```c
+#include <stdio.h>
+int main() { printf("Hello, World!\n"); return 0; }
+```
+</details>
 
 ```mermaid
 graph TD

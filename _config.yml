@@ -12,9 +12,12 @@ sass:
 markdown: kramdown
 highlighter: rouge
 kramdown:
+  toc_levels: 2..4
   input: GFM
+  math_engine: mathjax
   syntax_highlighter: rouge
   syntax_highlighter_opts:
+    css_class: "highlight"
     span:
       line_numbers: false
     block:
